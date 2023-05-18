@@ -3,8 +3,8 @@ language: 'de-DE'
 id: 'how-to-get-better-ideas-for-your-projects'
 title: 'Wie du auch endlich gute Ideen bekommst'
 excerpt: 'Wieso zum Teufel haben andere immere bessere Projekte?'
-releaseDate: '2023-02-24'
-date: '2023-02-24T05:35:07.322Z'
+releaseDate: '2023-05-18'
+date: '2023-0-18T05:35:07.322Z'
 ---
 
 Du codest an deinem Start-Up und öffnest Twitter. Irgendwer hat gerade ein AI-Tool gebaut, das Spritkosten zu einem Problem von gestern macht. Du blickst auf die Meal-Planning-App, die du gerade entwickelst, und fragst dich, ob du nicht doch lieber etwas anderes machen solltest.
