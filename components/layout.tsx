@@ -12,7 +12,7 @@ const Layout = ({ children }: Props) => {
     <>
       <Meta />
       <ToastProvider>
-        <div className="min-h-screen border-2 border-black-400 flex flex-col items-center">
+        <div className="min-h-screen md:border-2 border-black-400 flex flex-col items-center">
           <Header />
           <main className="flex-grow mb-20">{children}</main>
           <Footer />

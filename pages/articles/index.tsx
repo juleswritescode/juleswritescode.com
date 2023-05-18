@@ -5,7 +5,7 @@ import Post from '../../interfaces/post';
 import PostPreview from '../../components/post-preview';
 import { ProseContainer } from '../../components/prose-container';
 import { compareDesc } from 'date-fns';
-import { PageHeader } from '../../components/welcome';
+import { PageHeader } from '../../components/page-header';
 import SearchBar from '../../components/search';
 import { useState } from 'react';
 

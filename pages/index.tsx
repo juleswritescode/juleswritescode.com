@@ -2,7 +2,7 @@ import Layout from '../components/layout';
 import { getAllPosts } from '../lib/api';
 import Head from 'next/head';
 import Post from '../interfaces/post';
-import { PageHeader } from '../components/welcome';
+import { PageHeader } from '../components/page-header';
 import PostPreview from '../components/post-preview';
 import { ProseContainer } from '../components/prose-container';
 import { compareDesc } from 'date-fns';
@@ -22,7 +22,7 @@ export default function Index({ allPosts }: Props) {
         <ProseContainer>
           <PageHeader
             heading="Hi, I'm Jules!"
-            subheading="I’ve loved making things for as long as I can remember, and wrote my first program when I was 6 years old, just two weeks after my mom brought home the brand new Macintosh LC 550 that I taught myself to type on."
+            subheading={`If you're a Junior Indie Hacker, this is the blog for you. If you're like me, you have a mountain of questions. I want to share my answers, and talk about problems and stumbling blocks that you will encounter, to make it easy for you to learn and grow.`}
           />
           <div className="mt-12">
             <NewsletterSignup type="large" />

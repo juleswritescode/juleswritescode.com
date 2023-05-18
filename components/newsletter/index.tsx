@@ -34,8 +34,8 @@ export default function NewsletterSignup({ type = 'small' }: Props) {
   }
 
   return type == 'large' ? (
-    <div className="bg-white py-8 md:py-12 relative border-t border-b md:border-0">
-      <div className="hidden md:block absolute -z-10 -inset-x-12 lg:-inset-x-20 -inset-y-1 rounded-md shadow border"></div>
+    <div className="bg-white py-8 md:py-12 mt-16 mb-12 relative border-t border-b md:border-0">
+      <div className="hidden md:block absolute -z-10 -inset-x-12 lg:-inset-x-20 -inset-y-1 rounded-md shadow border border-gray-200"></div>
       <h2 className="text-xl md:text-2xl font-bold tracking-tight text-gray-800">
         Get my articles straight to your Inbox. <br /> Cancel anytime.
       </h2>
@@ -45,7 +45,7 @@ export default function NewsletterSignup({ type = 'small' }: Props) {
           onEmailInput={email => subscribe(email)}
         />
       </div>
-      <p className="text-xs md:text-sm leading-6 text-gray-500 font-light mt-2">
+      <p className="text-xs md:text-sm leading-4 text-gray-500 font-light mt-2">
         I will never pass your email to any third-party, and I promise to never
         send you spam.
       </p>

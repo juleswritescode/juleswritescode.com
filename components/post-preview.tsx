@@ -25,7 +25,7 @@ const PostPreview = ({ post }: Props) => {
         )}
       </div>
       <div className="group">
-        <h3 className="mt-3 text-xl font-semibold leading-6 text-gray-800 group-hover:text-gray-600">
+        <h3 className="mt-3 text-xl font-semibold leading-6 text-gray-800 group-hover:text-gray-900">
           <a href={`/articles/${post.slug}`}>
             <span className="absolute -inset-x-12 -inset-y-8" />
             {post.title}
