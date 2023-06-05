@@ -46,6 +46,7 @@ export const getStaticProps = async () => {
     'author',
     'coverImage',
     'excerpt',
+    'language',
   ]);
 
   const sortedByDate = allPosts.sort((a, b) =>
