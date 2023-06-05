@@ -1,7 +1,7 @@
 ---
 language: 'en'
 id: 'how-to-get-better-ideas-for-your-projects'
-title: 'Why Other People\’s Ideas are Better Than Yours'
+title: 'Why Other People’s Ideas are Better Than Yours'
 excerpt: 'Why do others always seem to have better ideas?'
 releaseDate: '2023-05-18'
 date: '2023-05-18T05:35:07.322Z'
@@ -27,7 +27,7 @@ I'm currently coding a browser extension that summarizes articles using ChatGPT.
 
 Through such aimless work, we don't give ourselves a chance to develop better ideas. We put on our blinders and activate "hustle mode". Once activated, there's no more room for us to wait for the creative spark. We keep working, even if it spontaneously ignites.
 
-Monologue with the Subconscious
+## Monologue with the Subconscious
 
 Suppose you meet for coffee with a creative but shy person - Mark. He has already founded and sold some great businesses. How would you act during the conversation? Would you blabber away in the 45 minutes he's blocked for you? Or would you only say a few words and ask as many questions as possible?
 Probably the latter. Why don't we behave this way when talking to our subconscious?
@@ -120,5 +120,5 @@ Best part? After the interview, I mentioned that I had discovered a lot. He repl
 
 Just pick up the phone, make a coffee date with someone in your niche, and see what happens.
 
-[^1]:
-[^2]:
+[^1]: If you already have a good idea, you should focus to work on that instead of opening up to new ideas.
+[^2]: For more on the topic, read "The MOM Test".
