@@ -54,6 +54,10 @@ export default function NewsletterSignup({ type = 'small' }: Props) {
     <div>
       <span className="text-sm text-gray-500">Newsletter</span>
       <EmailInput loading={loading} onEmailInput={email => subscribe(email)} />
+      <p className="text-xs md:text-sm leading-4 text-gray-500 font-light mt-2">
+        I will never pass your email to any third-party, and I promise to never
+        send you spam.
+      </p>
     </div>
   );
 }
@@ -96,7 +100,7 @@ function EmailInput({
           value={email}
           onChange={e => setEmail(e.target.value)}
           required
-          className="min-w-0 flex-auto rounded-md border-0 px-3.5 py-2 text-gray-800 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-brand-accent sm:text-sm sm:leading-6"
+          className="min-w-0 flex-auto rounded-md border-0 px-3.5 py-2 text-gray-800 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-brand-accent sm:text-sm sm:leading-6 focus-visible:ring-brand-accent focus-visible:outline-none"
           placeholder="Enter your email"
         />
         <button

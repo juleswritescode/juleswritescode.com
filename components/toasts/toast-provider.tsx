@@ -42,7 +42,7 @@ export function ToastProvider({ children }: { children: React.ReactNode }) {
       <div className="z-50 fixed w-full flex justify-center h-0 top-0">
         <ul className="absolute flex flex-col space-y-4 top-0 justify-center pt-8">
           {toasts.map(toast => (
-            <ToastMessage toast={toast} />
+            <ToastMessage toast={toast} key={toast.id} />
           ))}
         </ul>
       </div>
