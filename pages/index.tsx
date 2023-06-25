@@ -17,12 +17,30 @@ export default function Index({ allPosts }: Props) {
     <>
       <Layout>
         <Head>
-          <title>Welcome to my blog.</title>
+          <title>Well, hello there! | JulesWritesCode</title>
         </Head>
         <ProseContainer>
           <PageHeader
             heading="Hi, I'm Jules!"
-            subheading={`If you're a Junior Indie Hacker, this is the blog for you. If you're like me, you have a mountain of questions. I want to share my answers, and talk about problems and stumbling blocks that you will encounter, to make it easy for you to learn and grow.`}
+            subheading={
+              <>
+                <span>
+                  I am a professional musician turned coder from Germany. I love
+                  tech, and am fascinated with many new technologies. Too much,
+                  maybe.
+                </span>
+                <br />
+                <br />
+                My goal is to build helpful applications for musicians, bring
+                them to market and earn money. Everything about that fascinates
+                me.
+                <br />
+                <br />
+                So, I write about my journey, and about everything I learn along
+                the way - my products, validation, marketing, tech,
+                productivity, maybe even music.
+              </>
+            }
           />
           <div className="mt-12">
             <NewsletterSignup type="large" />

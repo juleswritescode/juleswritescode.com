@@ -24,7 +24,9 @@ const Footer = () => {
           <div className="absolute bg-white border-t w-auto -inset-x-12 lg:-inset-x-20 -inset-y-2 -z-10"></div>
           <NewsletterSignup type="small" />
           <div className="py-4 flex justify-between items-center">
-            <p className="text-xs text-gray-400">© Julian Domke, 2023</p>
+            <p className="text-xs text-gray-400">
+              © Julian Domke, 2023 &bull; jules@juleswritescode.com
+            </p>
             <ul className="flex space-x-4 text-gray-500 opacity-90 text-lg">
               {icons.map(({ icon, href }) => (
                 <SocialIcon icon={icon} key={icon} href={href} />

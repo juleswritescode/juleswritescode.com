@@ -29,14 +29,14 @@ export default function Index({ allPosts }: Props) {
     <>
       <Layout>
         <Head>
-          <title>{allPosts.length} Articles</title>
+          <title>All Articles | JulesWritesCode</title>
         </Head>
         <ProseContainer>
           {/* Just a div to make sure the width never expands below max. */}
           <div className="w-screen"></div>
           <PageHeader
             heading="All Articles"
-            subheading="These are my thoughts and experiments."
+            subheading="Here you go. Everything I've come up with so far."
           />
           <div className="mt-12">
             <SearchBar

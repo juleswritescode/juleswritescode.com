@@ -21,10 +21,11 @@ type Props = {
 
 export default function Post({ post, morePosts, preview }: Props) {
   const router = useRouter();
-  const title = `${post.title} | Next.js Blog Example with ${CMS_NAME}`;
+
   if (!router.isFallback && !post?.slug) {
     return <ErrorPage statusCode={404} />;
   }
+
   return (
     <Layout>
       <ProseContainer>
@@ -34,7 +35,7 @@ export default function Post({ post, morePosts, preview }: Props) {
           <>
             <article>
               <Head>
-                <title>{title}</title>
+                <title>{post.title} | JulesWritesCode</title>
               </Head>
               <PostHeader title={post.title} date={post.date} />
               <PostBody content={post.content} />

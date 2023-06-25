@@ -40,7 +40,7 @@ export default function SearchBar({
           placeholder={placeholder}
           name="search"
           id="search"
-          className="h-full block w-full rounded-md border border-gray-200 pr-12 shadow-sm focus:border-brand-accent focus:ring-brand-accent text-gray-800 sm:text-sm px-2"
+          className="h-full block w-full rounded-md border border-gray-200 pr-12 shadow-sm focus:border-brand-accent focus:ring-brand-accent focus-visible:outline-none text-gray-800 sm:text-sm px-2"
         />
         <div className="hidden lg:flex absolute inset-y-0 right-0 py-1.5 pr-1.5">
           <kbd className="inline-flex items-center rounded border border-gray-200 px-2 font-sans text-sm font-medium text-gray-400">

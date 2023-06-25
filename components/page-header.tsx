@@ -1,6 +1,6 @@
 type Props = {
   heading: string;
-  subheading?: string;
+  subheading?: React.ReactNode;
 };
 
 export function PageHeader({ heading, subheading }: Props) {

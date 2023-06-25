@@ -37,7 +37,7 @@ export default function NewsletterSignup({ type = 'small' }: Props) {
     <div className="bg-white py-8 md:py-12 mt-16 mb-12 relative border-t border-b md:border-0">
       <div className="hidden md:block absolute -z-10 -inset-x-12 lg:-inset-x-20 -inset-y-1 rounded-md shadow border border-gray-200"></div>
       <h2 className="text-xl md:text-2xl font-bold tracking-tight text-gray-800">
-        Get my articles straight to your Inbox. <br /> Cancel anytime.
+        Tired of bookmarking this site? Get new posts via email.
       </h2>
       <div className="mt-6">
         <EmailInput
