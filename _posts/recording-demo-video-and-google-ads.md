@@ -8,7 +8,7 @@ date: '2023-08-28T10:00:00.000Z'
 tags: ['albumcoverai', 'online marketing']
 ---
 
-After releasing AlbumCoverAI to the public, collecting the first feedback, and improving the UX, I realized that there are some parts that need explaining.
+After releasing [AlbumCoverAI](https://albumcoverai.com) to the public, collecting the first feedback, and improving the UX, I realized that there are some parts that need explaining.
 
 You can only take out so much complexity with UX. In the end, the user needs to understand how the AI works.
 
@@ -26,7 +26,7 @@ So I recorded that!
 
 ...Which was an absolute pain. My Macbook Pro is from 2019 and has an i9 chip ($++), which is one of the worst MacBooks to buy. The i9 chip gets too hot for the size of the laptop, so it overheats and crashes if you even attempt to edit a video.
 
-It took a few screams and some almost-thrown mugs, but after I decided to record snippets no longer than 1-2 minutes, I could stitch something together. My voice struggled with fluency and projecting a sense of excitement, but I'm happy with the result, and I'll get better with practice. You can see the finished video on YouTube.
+It took a few screams and some almost-thrown mugs, but after I decided to record snippets no longer than 1-2 minutes, I could stitch something together. My voice struggled with fluency and projecting a sense of excitement, but I'm happy with the result, and I'll get better with practice. You can see the finished video on [YouTube](https://www.youtube.com/watch?v=46oA3GJrOIA).
 
 Next, I needed testimonials from real artists so users could trust the app. This was easy, I just asked my musician friends I interviewed earlier for a quick phrase. Check!
 
