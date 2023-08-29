@@ -2,7 +2,7 @@
 language: 'en'
 id: 'album-cover-ai-first-ad-video'
 title: 'Creating a Crappy Ad Video for Instagram'
-excerpt: 'The Google Ad campaign failed, so I'll try Meta instead. First, I needed a video. It turned out to be crappy, but I uploaded it anyway.'
+excerpt: "The Google Ad campaign failed, so I'll try Meta instead. First, I needed a video. It turned out to be crappy, but I uploaded it anyway."
 releaseDate: '2023-08-29'
 date: '2023-08-29T10:00:00.000Z'
 tags: ['albumcoverai', 'online marketing']
