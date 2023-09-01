@@ -4,7 +4,7 @@ id: 'albumcoverai-new-ads-and-offer-considerations'
 title: 'Is My Offer Good Enough?'
 excerpt: 'New ads are up and running. But is my offer good enough? Would people feel stupid saying no to it?'
 releaseDate: '2023-08-30'
-date: '2023-08-30:00:00.000Z'
+date: '2023-08-30T00:00:00.000Z'
 tags: ['albumcoverai', 'online marketing']
 ---
 
