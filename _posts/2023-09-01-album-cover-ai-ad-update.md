@@ -5,7 +5,6 @@ title: 'More Pagevisits, No Buyers. Time to Tweak the Offer'
 excerpt: "The ad campaign is picking up pace, but nobody's buying. Time to change the offer."
 releaseDate: '2023-09-01'
 date: '2023-09-01T10:00:00.000Z'
-
 tags: ['albumcoverai', 'online marketing']
 ---
 
