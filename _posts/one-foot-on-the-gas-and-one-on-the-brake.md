@@ -4,7 +4,7 @@ id: 'one-foot-on-gas-and-one-on-brake'
 title: 'One Foot on the Gas, and One on the Brake'
 excerpt: 'Is your mind stuck on two opposing options? What if you lifted your foot off the brake, and went full-speed into one direction?'
 releaseDate: '2023-08-31'
-date: '2023-08-31:00:00.000Z'
+date: '2023-08-31T10:00:00.000Z'
 tags: ['mindset']
 ---
 

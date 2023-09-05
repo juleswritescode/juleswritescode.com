@@ -21,10 +21,14 @@ export function BaseDateFormat({ date, size }: Props) {
     }
   })();
 
+  const invalid = Number.isNaN(date.getTime());
+
+  const d = invalid ? new Date('1970-01-01') : date;
+
   return (
     <div className={sizeClass}>
-      <time dateTime={date.toISOString()} className="text-gray-500">
-        {format(date, 'MMM do, yyyy')}
+      <time dateTime={d.toISOString()} className="text-gray-500">
+        {format(d, 'MMM do, yyyy')}
       </time>
     </div>
   );
