@@ -2,7 +2,7 @@
 language: 'en'
 id: '2023-09-03-priorities'
 title: 'A Quick Note on Priorities'
-excerpt: "You're written list of priorities doesn't really help, does it?"
+excerpt: "Your written list of priorities doesn't really help, does it?"
 releaseDate: '2023-09-03'
 date: '2023-09-03T10:00:00.000Z'
 tags: ['time-management']
