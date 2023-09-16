@@ -8,8 +8,6 @@ date: '2023-09-15T10:00:00.000Z'
 tags: ['mindset']
 ---
 
-Few things in my life are more powerful than relationships. Here's what I do to bring new people into my life.
-
 When I was in music university, I was dead set on improving. My endeavor was risky; there weren't many successful musicians. If I wanted to make it, I had to be the best bass player in the city.
 
 So I locked myself into the practice room and spent days in there. All that counted were the hours that I practiced. Two hours? Bad day. Four hours? Okay. Six hours? Now we're talking.
