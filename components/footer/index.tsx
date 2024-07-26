@@ -14,18 +14,24 @@ const icons = [
     href: SocialLinks.Instagram,
   },
   { icon: IconType.Github, href: SocialLinks.Github },
+  { icon: IconType.Medium, href: SocialLinks.Medium },
 ];
 
 const Footer = () => {
+  const year = new Date().getFullYear();
+
   return (
     <div className="w-full flex justify-center">
       <ProseContainer>
         <div className="w-full relative py-4">
           <div className="absolute bg-white border-t w-auto -inset-x-12 lg:-inset-x-20 -inset-y-2 -z-10"></div>
-          <NewsletterSignup type="small" />
-          <div className="py-4 flex justify-between items-center">
-            <p className="text-xs text-gray-400">
-              © Julian Domke, 2023 &bull; jules@juleswritescode.com
+          <NewsletterSignup type="large" />
+          <div className="py-6 flex justify-between items-center">
+            <p className="text-xs text-gray-400 hidden md:block">
+              © Julian Domke, {year}
+            </p>
+            <p className="text-xs text-gray-400 md:hidden">
+              © Julian Domke, {year}
             </p>
             <ul className="flex space-x-4 text-gray-500 opacity-90 text-lg">
               {icons.map(({ icon, href }) => (

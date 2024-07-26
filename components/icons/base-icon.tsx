@@ -5,6 +5,7 @@ import {
   FaGithub,
   FaInstagram,
   FaCheckCircle,
+  FaMedium,
 } from 'react-icons/fa';
 import { AiOutlineLoading3Quarters } from 'react-icons/ai';
 import { MdError } from 'react-icons/md';
@@ -26,6 +27,8 @@ export function BaseIcon({ icon }: Props) {
       return <FaGithub />;
     case IconType.Twitter:
       return <FaTwitter />;
+    case IconType.Medium:
+      return <FaMedium />;
     case IconType.Loading:
       return <AiOutlineLoading3Quarters />;
     case IconType.Check:

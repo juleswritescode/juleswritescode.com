@@ -12,7 +12,7 @@ type Props = {
 export default function NewsletterSignup({ type = 'small' }: Props) {
   const [loading, setLoading] = useState(false);
 
-  const { addToast, removeToast } = useContext(ToastContext);
+  const { addToast } = useContext(ToastContext);
 
   async function subscribe(email) {
     if (!validator.isEmail(email)) {
@@ -34,18 +34,19 @@ export default function NewsletterSignup({ type = 'small' }: Props) {
   }
 
   return type == 'large' ? (
-    <div className="bg-white py-8 md:py-12 mt-16 mb-12 relative border-t border-b md:border-0">
-      <div className="hidden md:block absolute -z-10 -inset-x-12 lg:-inset-x-20 -inset-y-1 rounded-md shadow border border-gray-200"></div>
+    <div className="bg-white py-4 md:py-8 relative">
       <h2 className="text-xl md:text-2xl font-bold tracking-tight text-gray-800">
-        Tired of bookmarking this site? Get new posts via email.
+        I write articles.
+        <br />
+        If you want, I'll main them to you.
       </h2>
-      <div className="mt-6">
+      <div className="mt-4">
         <EmailInput
           loading={loading}
           onEmailInput={email => subscribe(email)}
         />
       </div>
-      <p className="text-xs md:text-sm leading-4 text-gray-500 font-light mt-2">
+      <p className="text-sm leading-4 text-gray-500 font-normal mt-4 md:mt-2">
         I will never pass your email to any third-party, and I promise to never
         send you spam.
       </p>
@@ -105,9 +106,16 @@ function EmailInput({
         />
         <button
           type="submit"
-          className="flex-none rounded-md bg-brand-accent py-2.5 px-3.5 text-sm font-semibold text-white shadow-sm hover:bg-brand-accent focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-accent"
+          className="flex-none rounded-md bg-brand-accent py-2.5 px-3.5 text-sm font-semibold text-white shadow-sm hover:bg-brand-accent/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-accent"
         >
-          {loading ? <LoadingSpinner /> : <span>Subscribe</span>}
+          {loading ? (
+            <LoadingSpinner />
+          ) : (
+            <>
+              <span className="sm:hidden">Ok!</span>
+              <span className="hidden sm:inline">Subscribe</span>
+            </>
+          )}
         </button>
       </div>
     </form>

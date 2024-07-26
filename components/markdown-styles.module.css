@@ -10,7 +10,7 @@
 .markdown ul,
 .markdown ol,
 .markdown blockquote {
-  @apply my-4 text-gray-600 leading-7 font-light text-base;
+  @apply my-6 text-gray-700 leading-7 font-normal text-base;
 }
 
 .markdown h2,

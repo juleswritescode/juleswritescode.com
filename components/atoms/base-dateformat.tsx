@@ -27,7 +27,7 @@ export function BaseDateFormat({ date, size }: Props) {
 
   return (
     <div className={sizeClass}>
-      <time dateTime={d.toISOString()} className="text-gray-500">
+      <time dateTime={d.toISOString()} className="text-gray-400 font-medium">
         {format(d, 'MMM do, yyyy')}
       </time>
     </div>

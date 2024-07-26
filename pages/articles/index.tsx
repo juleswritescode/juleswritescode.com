@@ -33,7 +33,6 @@ export default function Index({ allPosts }: Props) {
         </Head>
         <ProseContainer>
           {/* Just a div to make sure the width never expands below max. */}
-          <div className="w-screen"></div>
           <PageHeader
             heading="All Articles"
             subheading="Here you go. Everything I've come up with so far."

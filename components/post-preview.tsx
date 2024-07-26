@@ -13,9 +13,9 @@ const PostPreview = ({ post }: Props) => {
   return (
     <article
       key={post.slug}
-      className="relative flex max-w-prose flex-col items-start justify-between group py-12"
+      className="relative flex max-w-prose flex-col items-start justify-between group py-6"
     >
-      <span className="hidden lg:inline -z-10 absolute -inset-x-12 inset-y-0 transition group-hover:bg-gray-50 group-hover:shadow rounded-xl"></span>
+      <span className="hidden lg:inline -z-10 absolute -inset-x-8 inset-y-2 transition group-hover:bg-gray-50/50 group-hover:shadow rounded-xl"></span>
       <div className="flex space-x-4 items-baseline">
         <BaseDateFormat date={new Date(post.date)} size="sm" />
         {isNew && (
@@ -25,13 +25,13 @@ const PostPreview = ({ post }: Props) => {
         )}
       </div>
       <div className="group">
-        <h3 className="mt-3 text-xl font-semibold leading-6 text-gray-800 group-hover:text-gray-900">
+        <h3 className="mt-1 text-xl font-semibold leading-6 text-gray-800 group-hover:text-gray-900">
           <a href={`/articles/${post.slug}`}>
             <span className="absolute -inset-x-12 -inset-y-8" />
             {post.title}
           </a>
         </h3>
-        <p className="mt-5 text-base leading-6 text-gray-600 font-light line-clamp-3">
+        <p className="mt-1 text-base leading-6 text-gray-600 font-nrormal line-clamp-3">
           {post.excerpt}
         </p>
       </div>

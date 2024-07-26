@@ -2,14 +2,11 @@ import Link from 'next/link';
 import { ProseContainer } from '../prose-container';
 import { HeaderLinks } from './header-links';
 
-const links = [
-  { label: 'Articles', href: '/articles' },
-  { label: 'About', href: '/about' },
-];
+const links = [{ label: 'All Articles', href: '/articles' }];
 
 const Header = () => {
   return (
-    <div className="mb-12 lg:mb-16 bg-white z-50 sticky top-0 w-full flex justify-center">
+    <div className="mb-12 lg:mb-16 bg-white z-50 top-0 w-full flex justify-center">
       <ProseContainer>
         <div className="relative w-full">
           <div className="absolute bg-white lg:rounded-md border-b lg:border-0 lg:shadow w-auto -inset-x-12 lg:-inset-x-20 -inset-y-2 -z-10"></div>

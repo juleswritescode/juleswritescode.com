@@ -6,7 +6,7 @@ type Props = {
 
 export function HeaderLinks({ links }: Props) {
   return (
-    <ul className="flex space-x-6 lg:space-x-8 justify-between text-gray-500 tracking-tight font-medium">
+    <ul className="flex justify-between text-gray-500 tracking-tight font-medium">
       {links.map(link => (
         <li key={link.label} className="hover:text-brand-accent transition">
           <Link href={link.href}>{link.label}</Link>

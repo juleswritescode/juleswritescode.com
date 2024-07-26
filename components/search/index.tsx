@@ -29,7 +29,7 @@ export default function SearchBar({
 
   return (
     <div>
-      <label htmlFor="search" className="text-xs text-gray-500 h-full">
+      <label htmlFor="search" className="text-sm text-gray-500 h-full">
         {labelText}
       </label>
       <div className="relative mt-1 flex items-center h-10">
