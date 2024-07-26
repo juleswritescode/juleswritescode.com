@@ -52,4 +52,4 @@ Allocate an hour of your day to do reporting.
 
 Even if there's nothing newsworthy, report what you've been working on.
 
-\_Overcommunicate.\_s
+\_Overcommunicate.\_

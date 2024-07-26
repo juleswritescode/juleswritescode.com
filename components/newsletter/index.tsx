@@ -38,7 +38,7 @@ export default function NewsletterSignup({ type = 'small' }: Props) {
       <h2 className="text-xl md:text-2xl font-bold tracking-tight text-gray-800">
         I write articles.
         <br />
-        If you want, I'll main them to you.
+        If you want, I'll mail them to you.
       </h2>
       <div className="mt-4">
         <EmailInput
