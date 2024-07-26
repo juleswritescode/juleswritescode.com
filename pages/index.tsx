@@ -81,21 +81,25 @@ export default function Index({ allPosts }: Props) {
                   icon: IconType.Github,
                   text: 'Follow on Github',
                   href: SocialLinks.Github,
+                  key: SocialLinks.Github,
                 },
                 {
                   icon: IconType.Twitter,
                   text: 'Follow on X',
                   href: SocialLinks.Twitter,
+                  key: SocialLinks.Twitter,
                 },
                 {
                   icon: IconType.Instagram,
                   text: 'Follow on Instagram',
                   href: SocialLinks.Instagram,
+                  key: SocialLinks.Instagram,
                 },
                 {
                   icon: IconType.Medium,
                   text: 'Follow on Medium',
                   href: SocialLinks.Medium,
+                  key: SocialLinks.Medium,
                 },
               ].map(props => (
                 <FollowButton {...props} />

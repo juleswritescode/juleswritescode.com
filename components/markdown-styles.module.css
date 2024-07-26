@@ -15,7 +15,7 @@
 
 .markdown h2,
 .markdown h3 {
-  @apply text-gray-800 text-xl mt-20 mb-6 leading-snug font-medium;
+  @apply text-gray-900 text-xl mt-20 mb-6 leading-snug font-bold;
 }
 
 .markdown hr {
